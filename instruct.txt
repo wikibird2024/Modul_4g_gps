@@ -1,0 +1,20 @@
+sim_4g_gps/
+│── CMakeLists.txt          # File CMake chính
+│── sdkconfig               # Cấu hình project
+│── main/                   # Code chính
+│   ├── CMakeLists.txt
+│   ├── main.c              # Chương trình chính
+│── components/             # Chứa các module riêng biệt
+│   ├── sim_4g/             # Module SIM 4G-GPS
+│   │   ├── CMakeLists.txt
+│   │   ├── sim_4g.c        # Code giao tiếp SIM
+│   │   ├── sim_4g.h
+│   ├── uart_driver/        # Driver UART dùng chung
+│   │   ├── CMakeLists.txt
+│   │   ├── uart_driver.c
+│   │   ├── uart_driver.h
+│── build/                  # Thư mục build (tự động tạo khi biên dịch)
+│── flash/                  # Chứa firmware sau khi build
+│── partitions.csv           # File phân vùng (tuỳ chọn)
+│── .gitignore               # Loại bỏ file không cần thiết khi đẩy Git
+
