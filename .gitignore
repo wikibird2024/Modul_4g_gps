@@ -1,0 +1,36 @@
+# Build directory
+build/
+
+# SDK configuration
+sdkconfig
+sdkconfig.old
+
+# Generated files
+*.elf
+*.bin
+*.map
+*.hex
+
+# Temporary files
+*.o
+*.d
+*.a
+
+# PlatformIO build files
+.pioenvs/
+.pio/
+
+# Eclipse project files
+.project
+.cproject
+.settings/
+
+# Visual Studio Code files
+.vscode/
+
+# Other temporary files
+*.pyc
+*.swp
+*.swo
+*.DS_Store # macOS
+Thumbs.db # Windows
