@@ -1,0 +1,2 @@
+source /home/xk/esp/newone/build/bootloader/gdbinit/symbols
+source /home/xk/esp/newone/build/bootloader/gdbinit/connect
